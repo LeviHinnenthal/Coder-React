@@ -6,9 +6,9 @@ import tw from "../../assets/tw.svg";
 const Footer = () => {
   return (
     
-    <div className="flex items-center content-center absolute w-full justify-between px-6 py-4 border-t-2">
-      <div className="ecommerceLogo">iMarket</div>
-      <div className="terms flex content-start text-sm">
+    <div className="flex flex-col md:flex-row items-center content-center absolute w-full justify-between px-6 py-4 border-t-2">
+      <div className="ecommerceLogo">Nike</div>
+      <div className="terms flex flex-col items-center my-4 md:my-auto md:flex-row content-start text-sm">
         <div className="cursor-pointer mx-4">Terms & conditions</div>
         <div className="cursor-pointer mx-4">Privacy Politics</div>
         <div className="cursor-pointer mx-4">FAQ</div>
